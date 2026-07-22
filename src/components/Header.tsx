@@ -49,9 +49,9 @@ export function Header() {
           <Image
             src="/images/logo-roswil.png"
             alt={`Logo ${siteConfig.brandName}`}
-            width={56}
-            height={56}
-            className="h-12 w-12 object-contain transition duration-300 group-hover:scale-[1.03] md:h-14 md:w-14"
+            width={88}
+            height={88}
+            className="h-16 w-16 -scale-x-100 object-contain transition duration-300 group-hover:scale-y-[1.03] group-hover:-scale-x-[1.03] md:h-20 md:w-20"
             priority
           />
           <span className="font-display text-xl tracking-wide text-ink md:text-2xl">

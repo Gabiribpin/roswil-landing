@@ -1,10 +1,11 @@
 /**
- * Configuração central do site RosWil.
+ * Configuração central do site.
  * Atualize estes valores antes de publicar (WhatsApp, cidade, Instagram).
+ * Nome provisório da marca: Rosane (o arquivo do logo não é alterado).
  */
 
 export const siteConfig = {
-  brandName: "RosWil",
+  brandName: "Rosane",
   professionalName: "Rosane",
   tagline: "Oficina de costura",
 
@@ -36,7 +37,7 @@ export const siteConfig = {
     "Olá, Rosane! Conheci seu trabalho pelo site e gostaria de conversar sobre uma parceria de costura.",
 
   seo: {
-    title: "RosWil — Costura com cuidado, qualidade e compromisso",
+    title: "Rosane — Costura com cuidado, qualidade e compromisso",
     description:
       "Serviços de costura com máquina reta e overloque para confecções, pequenas marcas, lojas e ajustes. Solicite orçamento pelo WhatsApp.",
     url: "https://roswil.vercel.app",

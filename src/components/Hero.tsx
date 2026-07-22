@@ -60,7 +60,7 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-[1.75rem] border border-white/70 bg-white/40 shadow-lift">
               <Image
                 src="/images/rosane.png"
-                alt="Ambiente de costura da RosWil — substitua pela foto da Rosane em public/images/rosane.png"
+                alt="Ambiente de costura — substitua pela foto da Rosane em public/images/rosane.png"
                 width={900}
                 height={1125}
                 className="aspect-[4/5] h-auto w-full object-cover object-[center_42%]"

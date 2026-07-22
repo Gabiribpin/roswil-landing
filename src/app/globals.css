@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fffaf8;
+  --beige: #f7f2ec;
+  --blush: #f3e0e3;
+  --blush-deep: #e4c4ca;
+  --rose-gold: #b76e79;
+  --rose-gold-deep: #9c5863;
+  --ink: #3a3636;
+  --ink-soft: #6b6565;
+  --white: #ffffff;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-beige: var(--beige);
+  --color-blush: var(--blush);
+  --color-blush-deep: var(--blush-deep);
+  --color-rose-gold: var(--rose-gold);
+  --color-rose-gold-deep: var(--rose-gold-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-background: var(--cream);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-cormorant);
+  --shadow-soft: 0 10px 30px rgba(58, 54, 54, 0.06);
+  --shadow-lift: 0 18px 40px rgba(183, 110, 121, 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-rise,
+  .animate-rise-delay {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(243, 224, 227, 0.75), transparent 42%),
+    radial-gradient(circle at 88% 0%, rgba(247, 242, 236, 0.9), transparent 38%),
+    linear-gradient(180deg, var(--cream) 0%, #fff 45%, var(--beige) 100%);
+  color: var(--ink);
+  font-family: var(--font-outfit), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  font-weight: 560;
+}
+
+.fabric-grid {
+  background-image:
+    linear-gradient(rgba(183, 110, 121, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(183, 110, 121, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 80%);
+}
+
+.field {
+  width: 100%;
+  border-radius: 0.95rem;
+  border: 1px solid rgba(228, 196, 202, 0.9);
+  background: rgba(255, 255, 255, 0.92);
+  padding: 0.8rem 0.95rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field::placeholder {
+  color: #9a9494;
+}
+
+.field:focus {
+  outline: none;
+  border-color: var(--rose-gold);
+  box-shadow: 0 0 0 3px rgba(183, 110, 121, 0.18);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise 0.8s ease-out both;
+}
+
+.animate-rise-delay {
+  animation: rise 0.9s ease-out 0.12s both;
+}
+
+::selection {
+  background: rgba(183, 110, 121, 0.22);
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 960 1200" role="img" aria-label="Espaço reservado para a foto da Rosane">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F2EC"/>
+      <stop offset="45%" stop-color="#F3E0E3"/>
+      <stop offset="100%" stop-color="#E8C9CE"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#B76E79" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="1200" fill="url(#bg)"/>
+  <rect width="960" height="1200" fill="url(#soft)"/>
+  <circle cx="480" cy="430" r="118" fill="#FFFFFF" fill-opacity="0.55" stroke="#B76E79" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M320 720c40-110 140-170 160-170s120 60 160 170c18 48-8 90-56 90H376c-48 0-74-42-56-90z" fill="#FFFFFF" fill-opacity="0.5" stroke="#B76E79" stroke-opacity="0.3" stroke-width="2"/>
+  <text x="480" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#3A3636" opacity="0.75">Foto da Rosane</text>
+  <text x="480" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6B6565" opacity="0.7">Substitua em public/images/rosane.jpg</text>
+</svg>

@@ -20,7 +20,7 @@ export const siteConfig = {
   /**
    * Cidade e região de atendimento — provisório até confirmação.
    */
-  location: "Cidade e Estado",
+  location: "Americana — SP",
 
   /**
    * Instagram (opcional). Deixe vazio até ter o @ definitivo.

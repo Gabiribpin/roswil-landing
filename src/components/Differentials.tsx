@@ -17,7 +17,7 @@ export function Differentials() {
             id="diferenciais-title"
             className="mt-3 font-display text-3xl text-ink sm:text-4xl"
           >
-            O que você encontra na Rosane
+            O que você encontra no RW Ateliê
           </h2>
           <p className="mt-4 text-base leading-relaxed text-ink-soft">
             Uma forma de trabalhar pensada para transmitir confiança, delicadeza

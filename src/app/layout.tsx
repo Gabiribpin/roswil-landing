@@ -46,9 +46,9 @@ export const metadata: Metadata = {
     description: siteConfig.seo.description,
     images: [
       {
-        url: "/images/logo-roswil.png",
-        width: 800,
-        height: 800,
+        url: "/images/logo-rw-atelie.png",
+        width: 898,
+        height: 968,
         alt: `Logo ${siteConfig.brandName}`,
       },
     ],
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.seo.title,
     description: siteConfig.seo.description,
-    images: ["/images/logo-roswil.png"],
+    images: ["/images/logo-rw-atelie.png"],
   },
   robots: {
     index: true,

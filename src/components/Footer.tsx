@@ -11,11 +11,11 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo-roswil.png"
+              src={siteConfig.logoSrc}
               alt={`Logo ${siteConfig.brandName}`}
               width={80}
               height={80}
-              className="h-16 w-16 -scale-x-100 object-contain md:h-[4.5rem] md:w-[4.5rem]"
+              className="h-16 w-16 object-contain md:h-[4.5rem] md:w-[4.5rem]"
             />
             <div>
               <p className="font-display text-xl text-ink">

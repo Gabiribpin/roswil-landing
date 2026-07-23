@@ -1,23 +1,21 @@
 /**
- * Configuração central do site.
- * Atualize estes valores antes de publicar (WhatsApp, cidade, Instagram).
- * Nome provisório da marca: Rosane (o arquivo do logo não é alterado).
+ * Configuração central do site RW Ateliê.
+ * Atualize cidade/Instagram quando tiver o dado definitivo.
  */
 
 export const siteConfig = {
-  brandName: "Rosane",
+  brandName: "RW Ateliê",
   professionalName: "Rosane",
   tagline: "Oficina de costura",
 
   /**
-   * WhatsApp com DDD, só números, com código do país.
-   * Exemplo Brasil: 5511999999999
-   * Substitua pelo número real antes de publicar.
+   * WhatsApp oficial: +55 19 99622-5907
+   * Formato wa.me: só números, com código do país.
    */
-  whatsappNumber: "5500000000000",
+  whatsappNumber: "5519996225907",
 
   /** Exibido no rodapé e em textos de contato */
-  whatsappDisplay: "(00) 00000-0000",
+  whatsappDisplay: "(19) 99622-5907",
 
   /**
    * Cidade e região de atendimento — provisório até confirmação.
@@ -26,9 +24,11 @@ export const siteConfig = {
 
   /**
    * Instagram (opcional). Deixe vazio até ter o @ definitivo.
-   * Exemplo: "https://instagram.com/roswil.costura"
    */
   instagramUrl: "" as string,
+
+  /** Caminho do logo em /public */
+  logoSrc: "/images/logo-rw-atelie.png",
 
   defaultWhatsAppMessage:
     "Olá, Rosane! Conheci seu trabalho pelo site e gostaria de solicitar informações sobre um serviço de costura.",
@@ -37,10 +37,10 @@ export const siteConfig = {
     "Olá, Rosane! Conheci seu trabalho pelo site e gostaria de conversar sobre uma parceria de costura.",
 
   seo: {
-    title: "Rosane — Costura com cuidado, qualidade e compromisso",
+    title: "RW Ateliê — Costura com cuidado, qualidade e compromisso",
     description:
       "Serviços de costura com máquina reta e overloque para confecções, pequenas marcas, lojas e ajustes. Solicite orçamento pelo WhatsApp.",
-    url: "https://roswil.vercel.app",
+    url: "https://roswil-landing.vercel.app",
   },
 };
 

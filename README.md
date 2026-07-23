@@ -1,6 +1,6 @@
-# RosWil — Landing page
+# RW Ateliê — Landing page
 
-Landing page profissional da oficina de costura **RosWil** (Rosane), pronta para publicação na Vercel.
+Landing page profissional do **RW Ateliê** (Rosane), pronta para publicação na Vercel.
 
 ## Stack
 
@@ -25,9 +25,9 @@ Tudo que muda com frequência está centralizado:
 
 Arquivo atual:
 
-`public/images/logo-roswil.png`
+`public/images/logo-rw-atelie.png`
 
-Substitua mantendo o mesmo nome, ou atualize as referências nos componentes `Header` e `Footer`.
+Substitua mantendo o mesmo nome, ou atualize `logoSrc` em `src/lib/site.ts`.
 
 ### 2. Foto da Rosane
 

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BrandLogo } from "./BrandLogo";
 import { IconWhatsApp } from "./icons";
 import { siteConfig, whatsappLink } from "@/lib/site";
 
@@ -6,19 +6,13 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-blush/50 bg-beige/50">
+    <footer className="border-t border-blush/50 bg-beige/60">
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-[1.2fr_1fr] md:px-8">
         <div>
-          <div className="flex items-center gap-3">
-            <Image
-              src={siteConfig.logoSrc}
-              alt={`Logo ${siteConfig.brandName}`}
-              width={80}
-              height={80}
-              className="h-16 w-16 object-contain md:h-[4.5rem] md:w-[4.5rem]"
-            />
+          <div className="flex items-center gap-4">
+            <BrandLogo size="md" />
             <div>
-              <p className="font-display text-xl text-ink">
+              <p className="font-display text-xl text-ink md:text-2xl">
                 {siteConfig.brandName}
               </p>
               <p className="text-sm text-ink-soft">{siteConfig.tagline}</p>

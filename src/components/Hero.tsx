@@ -7,16 +7,16 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden pt-24 md:pt-28"
+      className="relative overflow-hidden pt-28 md:pt-32"
       aria-labelledby="hero-title"
     >
       <div
         className="pointer-events-none absolute inset-0 -z-10"
         aria-hidden="true"
       >
-        <div className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-blush/50 blur-3xl" />
-        <div className="absolute right-0 top-32 h-80 w-80 rounded-full bg-beige/80 blur-3xl" />
-        <div className="fabric-grid absolute inset-0 opacity-40" />
+        <div className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-beige/70 blur-3xl" />
+        <div className="absolute right-0 top-32 h-80 w-80 rounded-full bg-[#f4ebe4]/80 blur-3xl" />
+        <div className="fabric-grid absolute inset-0 opacity-30" />
       </div>
 
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-16 pt-8 md:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:pb-24 lg:pt-12">

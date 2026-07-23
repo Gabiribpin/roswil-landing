@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ButtonLink } from "./ButtonLink";
+import { BrandLogo } from "./BrandLogo";
 import { IconClose, IconMenu, IconWhatsApp } from "./icons";
 import { siteConfig, whatsappLink } from "@/lib/site";
 
@@ -36,25 +36,22 @@ export function Header() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition duration-300 ${
         scrolled || open
-          ? "border-b border-blush/50 bg-cream/90 backdrop-blur-md shadow-soft"
-          : "bg-transparent"
+          ? "border-b border-blush/40 bg-[#fffcf9]/95 backdrop-blur-md shadow-soft"
+          : "bg-[#fffcf9]/70 backdrop-blur-[2px]"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 md:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3.5 md:px-8 md:py-4">
         <Link
           href="#inicio"
-          className="group flex items-center gap-3 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-gold"
+          className="group flex items-center gap-3.5 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-gold"
           aria-label={`${siteConfig.brandName} — início`}
         >
-          <Image
-            src={siteConfig.logoSrc}
-            alt={`Logo ${siteConfig.brandName}`}
-            width={88}
-            height={88}
-            className="h-16 w-16 object-contain transition duration-300 group-hover:scale-[1.03] md:h-20 md:w-20"
+          <BrandLogo
+            size="lg"
             priority
+            className="transition duration-300 group-hover:shadow-lift"
           />
-          <span className="font-display text-xl tracking-wide text-ink md:text-2xl">
+          <span className="font-display text-2xl tracking-wide text-ink md:text-[1.75rem]">
             {siteConfig.brandName}
           </span>
         </Link>

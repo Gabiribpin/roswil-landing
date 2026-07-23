@@ -3,15 +3,16 @@ import { siteConfig } from "@/lib/site";
 import { twMerge } from "./cn";
 
 type BrandLogoProps = {
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "xl";
   className?: string;
   priority?: boolean;
 };
 
 const sizes = {
-  sm: { box: "h-14 w-14", image: 56 },
-  md: { box: "h-[4.5rem] w-[4.5rem] md:h-20 md:w-20", image: 96 },
-  lg: { box: "h-20 w-20 md:h-24 md:w-24", image: 112 },
+  sm: { box: "h-16 w-16", image: 72 },
+  md: { box: "h-20 w-20 md:h-24 md:w-24", image: 112 },
+  lg: { box: "h-24 w-24 md:h-28 md:w-28", image: 128 },
+  xl: { box: "h-[6.5rem] w-[6.5rem] sm:h-28 sm:w-28 md:h-32 md:w-32", image: 160 },
 };
 
 export function BrandLogo({
@@ -24,7 +25,7 @@ export function BrandLogo({
   return (
     <span
       className={twMerge(
-        "logo-plate inline-flex shrink-0 items-center justify-center overflow-hidden rounded-2xl",
+        "logo-plate inline-flex shrink-0 items-center justify-center overflow-hidden rounded-[1.35rem]",
         box,
         className,
       )}
@@ -34,7 +35,7 @@ export function BrandLogo({
         alt={`Logo ${siteConfig.brandName}`}
         width={image}
         height={image}
-        className="h-full w-full object-cover"
+        className="h-[92%] w-[92%] object-contain"
         priority={priority}
       />
     </span>

@@ -40,18 +40,18 @@ export function Header() {
           : "bg-[#fffcf9]/70 backdrop-blur-[2px]"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3.5 md:px-8 md:py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 md:px-8 md:py-3.5">
         <Link
           href="#inicio"
-          className="group flex items-center gap-3.5 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-gold"
+          className="group flex min-w-0 items-center gap-3 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-gold sm:gap-4"
           aria-label={`${siteConfig.brandName} — início`}
         >
           <BrandLogo
-            size="lg"
+            size="xl"
             priority
-            className="transition duration-300 group-hover:shadow-lift"
+            className="transition duration-300 group-hover:-translate-y-0.5 group-hover:shadow-[0_0_0_4px_#fff,0_0_0_7px_rgba(168,102,112,0.35),0_16px_32px_rgba(143,81,90,0.28)]"
           />
-          <span className="font-display text-2xl tracking-wide text-ink md:text-[1.75rem]">
+          <span className="font-display text-[1.65rem] leading-none tracking-wide text-ink sm:text-3xl md:text-[2rem]">
             {siteConfig.brandName}
           </span>
         </Link>

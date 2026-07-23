@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden pt-28 md:pt-32"
+      className="relative overflow-hidden pt-36 md:pt-40"
       aria-labelledby="hero-title"
     >
       <div

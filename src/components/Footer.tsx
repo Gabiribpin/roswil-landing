@@ -10,9 +10,9 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-[1.2fr_1fr] md:px-8">
         <div>
           <div className="flex items-center gap-4">
-            <BrandLogo size="md" />
+            <BrandLogo size="lg" />
             <div>
-              <p className="font-display text-xl text-ink md:text-2xl">
+              <p className="font-display text-2xl text-ink md:text-3xl">
                 {siteConfig.brandName}
               </p>
               <p className="text-sm text-ink-soft">{siteConfig.tagline}</p>

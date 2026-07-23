@@ -39,11 +39,12 @@ export function Partnership() {
               <ButtonLink
                 href={whatsappLink(siteConfig.partnershipWhatsAppMessage)}
                 external
-                className="bg-white text-ink hover:bg-cream"
+                variant="secondary"
+                className="border-transparent bg-white text-ink shadow-soft hover:bg-cream hover:text-ink"
                 ariaLabel="Conversar sobre uma parceria pelo WhatsApp"
               >
-                <IconWhatsApp className="h-4 w-4 text-rose-gold" />
-                Conversar sobre uma parceria
+                <IconWhatsApp className="h-4 w-4 shrink-0 text-rose-gold" />
+                <span className="text-ink">Conversar sobre uma parceria</span>
               </ButtonLink>
             </div>
           </div>

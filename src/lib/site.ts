@@ -40,7 +40,7 @@ export const siteConfig = {
     title: "RW Ateliê — Costura com cuidado, qualidade e compromisso",
     description:
       "Serviços de costura com máquina reta e overloque para confecções, pequenas marcas, lojas e ajustes. Solicite orçamento pelo WhatsApp.",
-    url: "https://roswil-landing.vercel.app",
+    url: "https://rwatelie.com",
   },
 };
 

@@ -9,13 +9,13 @@ export const siteConfig = {
   tagline: "Oficina de costura",
 
   /**
-   * WhatsApp oficial: +55 19 99622-5907
+   * WhatsApp oficial: +55 19 3468-6644
    * Formato wa.me: só números, com código do país.
    */
-  whatsappNumber: "5519996225907",
+  whatsappNumber: "551934686644",
 
   /** Exibido no rodapé e em textos de contato */
-  whatsappDisplay: "(19) 99622-5907",
+  whatsappDisplay: "(19) 3468-6644",
 
   /**
    * Cidade e região de atendimento — provisório até confirmação.

@@ -124,6 +124,17 @@ export function IconClose(props: IconProps) {
   );
 }
 
+export function IconCloth(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      {props.title ? <title>{props.title}</title> : null}
+      <path d="M6 4h12v16H6z" />
+      <path d="M6 8h12" />
+      <path d="M9 8v12M15 8v12" />
+    </svg>
+  );
+}
+
 export const serviceIcons = {
   needle: IconNeedle,
   overlock: IconOverlock,
@@ -131,4 +142,5 @@ export const serviceIcons = {
   repair: IconRepair,
   order: IconOrder,
   partners: IconPartners,
+  cloth: IconCloth,
 } as const;

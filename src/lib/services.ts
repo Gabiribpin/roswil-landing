@@ -2,10 +2,17 @@ export type ServiceItem = {
   id: string;
   title: string;
   description: string;
-  icon: "needle" | "overlock" | "hem" | "repair" | "order" | "partners";
+  icon: "needle" | "overlock" | "hem" | "repair" | "order" | "partners" | "cloth";
 };
 
 export const services: ServiceItem[] = [
+  {
+    id: "panos-de-prato",
+    title: "Panos de prato confeccionados",
+    description:
+      "Panos de prato artesanais com barrados estampados e acabamento caprichado — ideais para presente, casa ou encomenda.",
+    icon: "cloth",
+  },
   {
     id: "costura-montagem",
     title: "Costura e montagem de peças",
@@ -50,6 +57,29 @@ export const services: ServiceItem[] = [
   },
 ];
 
+export const dishTowelPhotos = [
+  {
+    src: "/images/panos-de-prato/01-frutas.jpg",
+    alt: "Panos de prato com barrados de frutas empilhados",
+  },
+  {
+    src: "/images/panos-de-prato/02-frutas-grade.jpg",
+    alt: "Coleção de panos de prato com estampas de frutas",
+  },
+  {
+    src: "/images/panos-de-prato/03-frutas-detalhe.jpg",
+    alt: "Panos de prato com barrados de abacaxi, maçã, cereja e banana",
+  },
+  {
+    src: "/images/panos-de-prato/04-aberto.jpg",
+    alt: "Pano de prato aberto com barrado de frutas e detalhes dobrados",
+  },
+  {
+    src: "/images/panos-de-prato/05-cafe-pimenta.jpg",
+    alt: "Panos de prato com temas de café e pimentas",
+  },
+] as const;
+
 export const differentials = [
   {
     title: "Cuidado em cada peça",
@@ -78,6 +108,7 @@ export const differentials = [
 ];
 
 export const serviceTypeOptions = [
+  "Panos de prato confeccionados",
   "Costura e montagem de peças",
   "Acabamentos em overloque",
   "Barras e ajustes",

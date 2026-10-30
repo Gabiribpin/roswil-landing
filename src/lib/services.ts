@@ -67,10 +67,6 @@ export const dishTowelPhotos = [
     alt: "Coleção de panos de prato com estampas de frutas",
   },
   {
-    src: "/images/panos-de-prato/03-frutas-detalhe.jpg",
-    alt: "Panos de prato com barrados de abacaxi, maçã, cereja e banana",
-  },
-  {
     src: "/images/panos-de-prato/04-aberto.jpg",
     alt: "Pano de prato aberto com barrado de frutas e detalhes dobrados",
   },

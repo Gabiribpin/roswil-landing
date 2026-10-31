@@ -14,13 +14,6 @@ export const services: ServiceItem[] = [
     icon: "cloth",
   },
   {
-    id: "costura-montagem",
-    title: "Costura e montagem de peças",
-    description:
-      "Costura e montagem cuidadosa de peças com máquina reta, com atenção ao caimento e ao acabamento.",
-    icon: "needle",
-  },
-  {
     id: "overloque",
     title: "Acabamentos em overloque",
     description:
@@ -40,13 +33,6 @@ export const services: ServiceItem[] = [
     description:
       "Consertos feitos com capricho para recuperar e prolongar o uso das suas peças.",
     icon: "repair",
-  },
-  {
-    id: "encomenda",
-    title: "Produção sob encomenda",
-    description:
-      "Produção sob encomenda para quem precisa de peças costuradas com organização e compromisso.",
-    icon: "order",
   },
   {
     id: "parceria",
@@ -105,11 +91,9 @@ export const differentials = [
 
 export const serviceTypeOptions = [
   "Panos de prato confeccionados",
-  "Costura e montagem de peças",
   "Acabamentos em overloque",
   "Barras e ajustes",
   "Consertos de roupas",
-  "Produção sob encomenda",
   "Parceria / facção",
   "Outro",
 ];

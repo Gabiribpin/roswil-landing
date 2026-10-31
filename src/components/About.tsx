@@ -39,7 +39,8 @@ export function About() {
             Rosane está iniciando sua oficina de costura com o propósito de
             oferecer um trabalho cuidadoso, responsável e de qualidade. Com
             máquina reta e overloque, atende diferentes necessidades, desde
-            pequenos ajustes até apoio na produção de peças.
+            pequenos ajustes e consertos até panos de prato e apoio a
+            parcerias.
           </p>
           <p className="mt-4 text-base leading-relaxed text-ink-soft">
             O foco é simples e claro: capricho, comunicação próxima e

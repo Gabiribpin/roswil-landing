@@ -31,9 +31,9 @@ export function Partnership() {
               Precisa de apoio na sua produção?
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/85 sm:text-lg">
-              Oferecemos serviços de costura para ajudar em pequenas produções,
-              montagem de peças e acabamentos. Uma parceria baseada em cuidado,
-              responsabilidade e compromisso com cada trabalho.
+              Oferecemos apoio em costura e acabamentos para pequenas
+              produções. Uma parceria baseada em cuidado, responsabilidade e
+              compromisso com cada trabalho.
             </p>
             <div className="mt-8">
               <ButtonLink
